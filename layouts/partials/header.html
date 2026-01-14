@@ -1,0 +1,23 @@
+<a class="skip-link" href="#main-content">{{ i18n "skip-link" }}</a>
+
+<nav class="terminal-nav">
+    ~/<a href="{{- relURL .Site.Home.RelPermalink -}}" class="title">{{- .Site.Params.Title -}}</a>
+    {{- if and .Parent (not .Parent.IsHome) -}}
+        /<a href="{{- relURL .Parent.RelPermalink -}}" class="title">{{- .Parent.Title | lower -}}</a>
+    {{- end -}}
+    {{- if not .IsHome -}}
+        /<span class="current-page">
+            {{- if .Params.terminal_title -}}
+                {{- .Params.terminal_title -}}
+            {{- else -}}
+                {{- $raw_title := .Title | lower -}}
+                {{- $fmt_title := replace $raw_title " " "-" -}}
+                {{- $fmt_title = replace $fmt_title "?" "" -}}
+                {{- $fmt_title = replace $fmt_title "!" "" -}}
+                {{- $fmt_title -}}
+            {{- end -}}
+        </span>
+    {{- end -}}
+    <span class="cursor">█</span>
+</nav>
+<nav>{{- partial "nav.html" . -}}</nav>

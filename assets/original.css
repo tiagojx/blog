@@ -178,3 +178,55 @@ figcaption > p {
   font-style: italic;
   color: #ccc;
 }
+
+/* CUSTOM */
+.terminal-nav {
+  font-family: ui-monospace, 
+             Menlo, Monaco, 
+             "Cascadia Mono", "Segoe UI Mono", 
+             "Roboto Mono", 
+             "Oxygen Mono", 
+             "Ubuntu Mono", 
+             "Source Code Pro",
+             "Fira Mono", 
+             "Droid Sans Mono", 
+             "Consolas", "Courier New", monospace;
+  font-size: 22pt;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0;
+}
+
+.terminal-nav a,
+.terminal-nav span {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.terminal-nav a:hover {
+  background-color: #ddd;
+  color: #252525;
+}
+
+.current-page {
+  font-weight: bold;
+}
+
+.cursor {
+  display: inline-block;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

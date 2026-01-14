@@ -1,0 +1,18 @@
+[filtering-for]
+  other = "Filtrando para"
+
+[no-posts]
+  other = "Nenhum post ainda"
+
+[email-subject]
+  other = "Resposta a "
+
+[email-reply]
+  other = "Responda a este post por email"
+
+[skip-link]
+  other = "Pular para conteúdo principal"
+
+[good]
+  good = 'bom'
+  good_fem = 'boa'

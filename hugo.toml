@@ -32,7 +32,7 @@ enableRobotsTXT = true
   favicon = "images/favicon.png"
   images = ["images/share.webp"]
   
-  title = "tiagojx's lair"
+  title = "lair"
   dateFormat = "2006-01-02"
 
   hideUntranslated = false
