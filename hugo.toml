@@ -1,7 +1,51 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = "tiagojx's blog"
 theme = "hugo-bearcub"
+copyright = "Tiago Xavier (CC BY 4.0)"
+defaultContentLanguage = "en"
+title = "tiagojx's lair"
+
+enableRobotsTXT = true
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+
+[languages]
+  [languages.en]
+    languageName = "en-US 🇺🇸"
+    LanguageCode = "en-US"
+    contentDir = "content"
+    [languages.en.params]
+      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub) and [Hugo](https://gohugo.io)"
+  [languages.pt]
+    languageName = "pt-BR 🇧🇷"
+    LanguageCode = "pt-BR"
+    contentDir = "content.pt"
+    [languages.pt.params]
+      madeWith = "Feito com [Bear Cub](https://github.com/clente/hugo-bearcub) e [Hugo](https://gohugo.io)"
+
+[params]
+  description = "Lorem ipsum"
+
+  favicon = "images/favicon.png"
+  images = ["images/share.webp"]
+  
+  title = "tiagojx's lair"
+  dateFormat = "2006-01-02"
+
+  hideUntranslated = false
+  
+  themeStyle = "original"
+  generateSocialCard = false
+
+  [params.social]
+    twitter = "rxyum"
+
+  [params.author]
+    name = "tiagojx"
+    #email = ""
 
 [caches]
   [caches.images]
