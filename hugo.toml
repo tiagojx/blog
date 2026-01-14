@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://tiagojx.github.io/blog/'
 theme = "hugo-bearcub"
 copyright = "Tiago Xavier (CC BY 4.0)"
 defaultContentLanguage = "en"
