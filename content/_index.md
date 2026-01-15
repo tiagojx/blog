@@ -3,6 +3,7 @@ title = 'home'
 menu = 'main'
 weight = 1
 +++
+# Hello! o/
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla magna id consectetur occaecat sed ad non adipisicing tempor do. In ad elit tempor minim proident reprehenderit veniam aute veniam reprehenderit.
 

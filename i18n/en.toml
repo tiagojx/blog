@@ -14,4 +14,7 @@
   other = "Skip to main content"
 
 [good]
-  other = 'good'
+  other = "good"
+
+[translated] 
+  other = "Translated"

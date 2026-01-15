@@ -1,3 +1,7 @@
 {{ define "main" }}
-{{ .Content }}
+<div class="console-window">
+    <h5>~/{{ .Site.Params.Title }}/{{ .Title }}/{{ printf "%s.md" .File.BaseFileName }}<h5 class="window-header">_  @  x</h5>
+    <hr>
+    <span>{{ .Content }}</span>
+</div>
 {{ end }}

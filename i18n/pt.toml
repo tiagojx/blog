@@ -14,5 +14,8 @@
   other = "Pular para conteúdo principal"
 
 [good]
-  good = 'bom'
-  good_fem = 'boa'
+  good = "bom"
+  good_fem = "boa"
+
+[translated] 
+  other = "Traduzida"

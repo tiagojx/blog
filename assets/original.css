@@ -4,11 +4,11 @@ body {
   padding: 20px;
   max-width: 720px;
   text-align: left;
-  background-color: #1d1f27;
+  background-color:  #2a2349;
   word-wrap: break-word;
   overflow-wrap: break-word;
   line-height: 1.5;
-  color: #c9d1d9;
+  color: #fff9e4;
 }
 
 h1,
@@ -23,7 +23,7 @@ b {
 }
 
 a {
-  color: #8cc2dd;
+  color: #c16c5b;
 }
 
 .title {
@@ -192,7 +192,7 @@ figcaption > p {
              "Droid Sans Mono", 
              "Consolas", "Courier New", monospace;
   font-size: 22pt;
-  padding: 10px;
+  padding: 5px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -229,4 +229,58 @@ figcaption > p {
   50% {
     opacity: 0;
   }
+}
+
+/* Menu nav */
+.menu-nav {
+  font-family: inherit;
+  padding: 20px;
+}
+
+.menu-nav a {
+  text-decoration: none;
+}
+
+.menu-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Fake terminal emulator window */
+.console-window {
+  width: auto;
+  height: auto;
+  background: rgba(125, 56, 64, 0.1);
+  border-radius: 8px;
+  border: 1px solid #4180a0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.console-window hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    clear: both;
+}
+
+.console-window h5 {
+  color: #eee;
+  font-weight: bold;
+  margin: 0;
+  padding: 5px;
+  padding-bottom: 18px;
+  padding-top: 0;
+  height: 0;
+  float: left;
+}
+
+.console-window .window-header {
+  float: right;
+}
+
+.console-window span {
+  padding: 10px;
+  padding-top: 0;
+  display: flex;
+  flex-wrap: wrap;
 }

@@ -1,8 +1,9 @@
 +++
-title = 'home'
+title = 'início'
 menu = 'main'
 weight = 1
 +++
+# Olá! o/
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit dolor enim sit sit incididunt nisi culpa cillum sint ad. Enim ex est occaecat dolor eu elit enim deserunt minim fugiat. Pariatur nostrud qui pariatur incididunt qui enim ad occaecat velit aliquip nulla magna minim. Velit mollit enim irure mollit ullamco sunt ad laborum est labore. Eu consectetur ex sint excepteur nostrud voluptate nisi reprehenderit.
 
