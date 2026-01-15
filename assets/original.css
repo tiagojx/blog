@@ -23,7 +23,11 @@ b {
 }
 
 a {
-  color: #c16c5b;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-skip: edges;
+  text-decoration-color: #4180a0;
+  text-decoration-thickness: 3px;
 }
 
 .title {
@@ -130,9 +134,11 @@ ul.blog-posts li span {
   flex: 0 0 130px;
 }
 
+/*
 ul.blog-posts li a:visited {
-  color: #8b6fcb;
+  color: #32535f;
 }
+*/
 
 a.blog-tags {
   line-height: 2;
@@ -243,6 +249,8 @@ figcaption > p {
 
 .menu-nav a:hover {
   text-decoration: underline;
+  text-decoration-color: #4180a0;
+  text-decoration-thickness: 3px;
 }
 
 /* Fake terminal emulator window */

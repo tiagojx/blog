@@ -14,13 +14,13 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    languageName = "en-US 🇺🇸"
+    languageName = "EN 🇺🇸"
     LanguageCode = "en-US"
     contentDir = "content"
     [languages.en.params]
       madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub) and [Hugo](https://gohugo.io)"
   [languages.pt]
-    languageName = "pt-BR 🇧🇷"
+    languageName = "PT 🇧🇷"
     LanguageCode = "pt-BR"
     contentDir = "content.pt"
     [languages.pt.params]
