@@ -218,7 +218,11 @@ figcaption > p {
   color: #252525;
 }
 
-.current-page {
+.terminal-nav .blocked-page {
+  color: #baba;
+}
+
+.terminal-nav .current-page {
   font-weight: bold;
 }
 

@@ -1,7 +1,7 @@
 baseURL = 'https://tiagojx.github.io/blog/'
 theme = "hugo-bearcub"
 copyright = "Tiago Xavier (CC BY 4.0)"
-defaultContentLanguage = "en"
+defaultContentLanguage = "pt"
 title = "tiagojx's lair"
 
 enableRobotsTXT = true
@@ -19,13 +19,14 @@ enableRobotsTXT = true
   [languages.en]
     languageName = "EN 🇺🇸"
     LanguageCode = "en-US"
-    contentDir = "content"
+    contentDir = "content.en"
     [languages.en.params]
+      title = "lair"
       madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub) and [Hugo](https://gohugo.io)"
   [languages.pt]
     languageName = "PT 🇧🇷"
     LanguageCode = "pt-BR"
-    contentDir = "content.pt"
+    contentDir = "content"
     [languages.pt.params]
       madeWith = "Feito com [Bear Cub](https://github.com/clente/hugo-bearcub) e [Hugo](https://gohugo.io)"
 
@@ -35,7 +36,7 @@ enableRobotsTXT = true
   favicon = "images/favicon.png"
   images = ["images/share.webp"]
   
-  title = "lair"
+  title = "covil"
   dateFormat = "2006-01-02"
 
   hideUntranslated = false

@@ -3,20 +3,28 @@
 <nav class="terminal-nav">
     ~/<a href="{{- relURL .Site.Home.RelPermalink -}}" class="title">{{- .Site.Params.Title -}}</a>
     {{- if and .Parent (not .Parent.IsHome) -}}
-        /<a href="{{- relURL .Parent.RelPermalink -}}" class="title">{{- .Parent.Title | lower -}}</a>
+        {{- if eq .Parent.Title "special" -}}
+            /<span class="blocked-page">{{- .Parent.Title | lower -}}</span>
+        {{- else -}}
+            /<a href="{{- relURL .Parent.RelPermalink -}}" class="title">{{- .Parent.Title | lower -}}</a>
+        {{- end -}}
     {{- end -}}
     {{- if not .IsHome -}}
-        /<span class="current-page">
-            {{- if .Params.terminal_title -}}
-                {{- .Params.terminal_title -}}
-            {{- else -}}
-                {{- $raw_title := .Title | lower -}}
-                {{- $fmt_title := replace $raw_title " " "-" -}}
-                {{- $fmt_title = replace $fmt_title "?" "" -}}
-                {{- $fmt_title = replace $fmt_title "!" "" -}}
-                {{- $fmt_title -}}
-            {{- end -}}
-        </span>
+        {{- if eq .Parent.Title "special" -}}
+            /{{- .Params.title_hidden -}}
+        {{- else -}}
+            /<span class="current-page">
+                {{- if .Params.terminal_title -}}
+                    {{- .Params.terminal_title -}}
+                {{- else -}}
+                    {{- $raw_title := .Title | lower -}}
+                    {{- $fmt_title := replace $raw_title " " "-" -}}
+                    {{- $fmt_title = replace $fmt_title "?" "" -}}
+                    {{- $fmt_title = replace $fmt_title "!" "" -}}
+                    {{- $fmt_title -}}
+                {{- end -}}
+            </span>
+        {{- end -}}
     {{- end -}}
     <span class="cursor">█</span>
 </nav>
