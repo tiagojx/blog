@@ -6,6 +6,9 @@ title = "tiagojx's lair"
 
 enableRobotsTXT = true
 
+[security]
+  enableInlineShortcodes = true
+
 [markup]
   [markup.highlight]
     lineNos = true

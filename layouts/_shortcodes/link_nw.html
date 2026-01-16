@@ -1,0 +1,4 @@
+{{- with .Get "href" -}}
+    <a class="link_nw" href="{{ . }}" target="_blank">
+{{ end }}
+{{- .Inner | .Page.RenderString -}}</a>

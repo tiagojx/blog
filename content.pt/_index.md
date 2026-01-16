@@ -3,8 +3,22 @@ title = 'início'
 menu = 'main'
 weight = 1
 +++
-# Olá! o/
+## Sobre mim
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit dolor enim sit sit incididunt nisi culpa cillum sint ad. Enim ex est occaecat dolor eu elit enim deserunt minim fugiat. Pariatur nostrud qui pariatur incididunt qui enim ad occaecat velit aliquip nulla magna minim. Velit mollit enim irure mollit ullamco sunt ad laborum est labore. Eu consectetur ex sint excepteur nostrud voluptate nisi reprehenderit.
+Me chamo **Tiago**, e este é o meu covil. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur aliquip quis minim lorem ex amet exercitation. Velit amet do labore ut labore lorem velit cillum sunt mollit mollit sed ex. Voluptate magna do tempor exercitation eu labore aute veniam enim. Do fugiat magna occaecat officia id sit dolor adipisicing ipsum cupidatat.
+Estou me graduando em **Sistemas de Informação** — e enquanto alheio ao ciclo de *estudo x trabalho* — à parte da minha jornada mundana, faço os meus estudos de **programação voltada à Web**, e os meus estudos de **linguística**, e os **ensaios** enfadonhos que venho escrevendo. O resto, de nada mais importa.
+
+## 'Onde posso encontrar ...?'
+* ...você presencialmente: **não**;
+* ...os seus projetos computacionais nada ortodóxicos:
+{{< link_nw href=https://github.com/tiagojx >}} Github {{< /link_nw >}};
+* ...textos bons:
+{{< link_nw href=https://google.com >}} aqui {{< /link_nw >}};
+* ...textos "maus":
+{{< link_nw href=https://google.com >}} aqui {{< /link_nw >}};
+* ..._desculpa pela piada idiota... (￣▽￣*)ゞ_
+	- __...tó!__ Pra você: [abra!](http://tiagojx.github.io/blog/special/gift);
+* ...textos como este: [blog](https://tiagojx.github.io/blog/posts);
+* ...o seu perfil *weeb* sem-vergonha:
+{{< link_nw href=https://myanimelist.net/profile/Drakysm >}} MAL {{< /link_nw >}};
