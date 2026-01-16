@@ -22,13 +22,13 @@ enableRobotsTXT = true
     contentDir = "content.en"
     [languages.en.params]
       title = "lair"
-      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub) and [Hugo](https://gohugo.io)"
+      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub) and [Hugo](https://gohugo.io) | _This site is under constant development and full of experimental writing choices._"
   [languages.pt]
     languageName = "PT 🇧🇷"
     LanguageCode = "pt-BR"
     contentDir = "content"
     [languages.pt.params]
-      madeWith = "Feito com [Bear Cub](https://github.com/clente/hugo-bearcub) e [Hugo](https://gohugo.io)"
+      madeWith = "Feito com [Bear Cub](https://github.com/clente/hugo-bearcub) e [Hugo](https://gohugo.io) | _Este site se encontra em um estado constante de desenvolvimento; cheio de composições experimentais e escrita questionável._"
 
 [params]
   description = "Lorem ipsum"

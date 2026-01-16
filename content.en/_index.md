@@ -3,8 +3,20 @@ title = 'home'
 menu = 'main'
 weight = 1
 +++
-# Hello! o/
+# Hello, 
 
-Lorem ipsum dolor sit amet, consectetur [adipisicing](https://example.org/) elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla magna id consectetur occaecat sed ad non adipisicing tempor do. In ad elit tempor minim proident reprehenderit veniam aute veniam reprehenderit.
+My name is **Tiago**, and this is my lair. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla nostrud pariatur lorem ullamco ut exercitation amet. Occaecat qui velit dolor sit lorem nulla dolore tempor magna aliquip sit officia. Nisi occaecat consectetur do dolor sunt do laborum deserunt anim anim excepteur laboris dolore. Sit reprehenderit excepteur laborum anim aliqua id fugiat eiusmod do enim ex nisi proident.
+As an **Information Systems** student —  trying to find balance outside the daily grind — I dedicate my time to **Web programming** and **Linguistics**, as well as the **essays** I write.
+
+Apart from that, there is nothing groundbreaking enough for the homepage, but just interesting enough to, every now and then, pop up in the body of a [*post*](https://tiagojx.github.io/blog/posts).
+
+## 'Where can I find ...?'
+* ...your unorthodox computing projects:
+{{< link_nw href=https://github.com/tiagojx >}} Github🔗 {{< /link_nw >}};
+* ...good posts: [here](https://tiagojx.github.io/blog/posts);
+* ...bad posts: [here](https://tiagojx.github.io/blog/posts);
+* ..._sorry for the silly lil joke... (￣▽￣*)ゞ_
+	- __...take this!__ it's for you: [open the gift!](https://tiagojx.github.io/blog/special/gift);
+* ...your shameless *weeb* profile:
+{{< link_nw href=https://myanimelist.net/profile/Drakysm >}} MAL🔗 {{< /link_nw >}};

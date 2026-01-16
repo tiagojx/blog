@@ -17,6 +17,6 @@ De resto, nada tão interessante para figurar na minha página principal, mas di
 * ...textos bons: [aqui](https://tiagojx.github.io/blog/posts);
 * ...textos "maus": [aqui](https://tiagojx.github.io/blog/posts);
 * ..._desculpa pela piadinha idiota... (￣▽￣*)ゞ_
-	- __...tó!__ Pra você: [abra!](http://tiagojx.github.io/blog/special/gift);
+	- __...tó!__ Pra você: [abra!](https://tiagojx.github.io/blog/special/gift);
 * ...o seu perfil *weeb* sem-vergonha:
 {{< link_nw href=https://myanimelist.net/profile/Drakysm >}} MAL🔗 {{< /link_nw >}};
