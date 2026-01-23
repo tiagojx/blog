@@ -18,5 +18,3 @@ Apart from that, there is nothing groundbreaking enough for the homepage, but ju
 * ...bad posts: [here](https://tiagojx.github.io/blog/posts);
 * ..._sorry for the silly lil joke... (￣▽￣*)ゞ_
 	- __...take this!__ it's for you: [open the gift!](https://tiagojx.github.io/blog/special/gift);
-* ...your shameless *weeb* profile:
-{{< link_nw href=https://myanimelist.net/profile/Drakysm >}} MAL🔗 {{< /link_nw >}};
