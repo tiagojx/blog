@@ -1,31 +1,37 @@
 {{ define "main" }}
 {{ if not .Params.menu }}
-<h1>{{ .Title }}</h1>
-<p class="byline">
-  {{- if .Params.date -}}
-    <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-      {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
-    </time>
-  {{- end -}}
-  {{ with .Params.author }}· {{.}}{{ end }}
-  {{- if .Params.translated -}}· <b>{{ T "translated" }}</b>{{- end -}}
-</p>
-{{ end }}
-<content>
-  {{ .Content }}
-</content>
-<p>
-  {{ range (.GetTerms "tags") }}
-    <a class="blog-tags" href="{{ .RelPermalink }}">#{{ lower .LinkTitle }}</a>
-  {{ end }}
-</p>
-{{ if not .Params.hideReply }}
-{{ with .Site.Params.author.email }}
-  <p>
-    <a href='mailto:{{ . }}?subject={{ i18n "email-subject" }}"{{ default $.Site.Title $.Page.Title }}"'>
-      {{ i18n "email-reply" }} ↪
-    </a>
-  </p>
-{{ end }}
+<div class="console-window">
+  <h5>~/{{ .Site.Params.Title }}/posts/{{ printf "%s.md" .File.BaseFileName }}<h5 class="window-header">_  @  x</h5>
+  <hr>
+  <span>
+    <h1>{{ .Title }}</h1>
+    <p class="byline">
+      {{- if .Params.date -}}
+        <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+          {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
+        </time>
+      {{- end -}}
+      {{ with .Params.author }}· {{.}}{{ end }}
+      {{- if .Params.translated -}}· <b>{{ T "translated" }}</b>{{- end -}}
+    </p>
+    {{ end }}
+    <content>
+      {{ .Content }}
+    </content>
+    <p>
+      {{ range (.GetTerms "tags") }}
+        <a class="blog-tags" href="{{ .RelPermalink }}">#{{ lower .LinkTitle }}</a>
+      {{ end }}
+    </p>
+    {{ if not .Params.hideReply }}
+    {{ with .Site.Params.author.email }}
+      <p>
+        <a href='mailto:{{ . }}?subject={{ i18n "email-subject" }}"{{ default $.Site.Title $.Page.Title }}"'>
+          {{ i18n "email-reply" }} ↪
+        </a>
+      </p>
+    {{ end }}
+  </span>
+</div>
 {{ end }}
 {{ end }}
