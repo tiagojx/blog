@@ -9,23 +9,12 @@ body {
   overflow-wrap: break-word;
   line-height: 1.5;
   color: #fff9e4;
-  
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAABuUlEQVR4nO3bXVKDMBQG0OB0xk24Al2Xq+q62hW4CZ/0oUIxBhpqf0jvOTMOBbVF8nETAnbpx9fnx1cKpHt+6e69D2vwdO8d4L66aGd+Lnol+FUB3l7fh2X/Ot8+XtK+Yhew229TSseG7tf7beP1tcpDKrxlxQDkjTw+aGtr/L5azVWslA773Up4b2lyENjKmbLbb4ev8bbxMqVjqFv5u27FINAgkMg2/YtopdFY4EAFCE4AghOA4AQgOAEIbnP6R/7KR9DRriAeyeIKULp8cknVrrO7gHz+nTYt6gLmzvTSPPtUV1Fzo6kUrvwuZe3vMe2sMcASUw0yDkPpTl6+fbxeCtvc95jWxFVAKSTGHZdRXQFqDvhcN/Df7bX75+xfppkuoPZzdAHLnN0F5A9hXFNe8jXy5VRVgFJDl0b0/fqSkX2tcQg0/uUMTwTNHdQlATj1XmvR77cngipMXZO32vgcVQ8CNexjamIegOsRgOAEIDgBCE4AghOA4AQguGEWLNr/CEafAeypAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAETzDRmJwII8NgIZAAAAAElFTkSuQmCC);
+
+  /*background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAABuUlEQVR4nO3bXVKDMBQG0OB0xk24Al2Xq+q62hW4CZ/0oUIxBhpqf0jvOTMOBbVF8nETAnbpx9fnx1cKpHt+6e69D2vwdO8d4L66aGd+Lnol+FUB3l7fh2X/Ot8+XtK+Yhew229TSseG7tf7beP1tcpDKrxlxQDkjTw+aGtr/L5azVWslA773Up4b2lyENjKmbLbb4ev8bbxMqVjqFv5u27FINAgkMg2/YtopdFY4EAFCE4AghOA4AQgOAEIbnP6R/7KR9DRriAeyeIKULp8cknVrrO7gHz+nTYt6gLmzvTSPPtUV1Fzo6kUrvwuZe3vMe2sMcASUw0yDkPpTl6+fbxeCtvc95jWxFVAKSTGHZdRXQFqDvhcN/Df7bX75+xfppkuoPZzdAHLnN0F5A9hXFNe8jXy5VRVgFJDl0b0/fqSkX2tcQg0/uUMTwTNHdQlATj1XmvR77cngipMXZO32vgcVQ8CNexjamIegOsRgOAEIDgBCE4AghOA4AQguGEWLNr/CEafAeypAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAETzDRmJwII8NgIZAAAAAElFTkSuQmCC);
   
   background-repeat: repeat;
-  background-size: 256px 256px;
-  image-rendering: pixelated;
-  image-rendering: crips-edges;
-  animation: diagonal-slide 40s linear infinite;
-}
-
-@keyframes diagonal-slide {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 256px 256px;
-  }
+  background-size: 128px, 128px;
+  image-rendering: pixelated;*/
 }
 
 h1,
@@ -220,7 +209,7 @@ figcaption > p {
   flex-wrap: wrap;
   align-items: center;
   gap: 0;
-  background: #2a2349;
+  background: rgba(42, 35, 73, 0.9);
   border-radius: 8px;
   border: 1px solid #4180a0;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -263,28 +252,60 @@ figcaption > p {
 }
 
 /* Menu nav */
+.menu-container {
+  display: flex;
+  height: 15px;
+}
+
 .menu-nav {
-  font-family: inherit;
+  position: fixed;
+  top: 80px;
+  left: 200px;
+  width: 150px;
+}
+
+.menu-list {
+  list-style-type: none;
+  width: 150px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list li {
   padding: 20px;
 }
 
 .menu-nav a {
   text-decoration: none;
-  background: #2a2349;
+  /*background: #2a2349;*/
+
+  /*display: block;*/
+  padding: 12px 16px;
+  margin-bottom: 15px;
+  color: #2a2349;
+  background-color: #fff9e4;
+  border: 2px solid #4180a0;
+  border-radius: 8px;
+  box-shadow: 4px 4px 0px #000000;
+  font-weight: bold;
+  transition: all 0.1s ease;
 }
 
 .menu-nav a:hover {
   text-decoration: underline;
   text-decoration-color: #4180a0;
   text-decoration-thickness: 3px;
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #000000;
+  background-color: #eee;
 }
 
 /* Fake terminal emulator window */
 .console-window {
   width: 100%;
   height: 100%;
-  /*background: rgba(125, 56, 64, 0.1);*/
-  background: #2a2349;
+  background: rgba(42, 35, 73, 0.9);
+  /*background: #2a2349;*/
   border-radius: 8px;
   border: 1px solid #4180a0;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -319,7 +340,7 @@ figcaption > p {
   display: block;
 }
 
-/* Blog */
+/* Blog 
 .blog-posts {
-  background: #2a2349;
-}
+  background: rgba(42, 35, 73, 0.9);
+}*/
