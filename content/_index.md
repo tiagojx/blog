@@ -17,4 +17,4 @@ De resto, nada tão interessante para figurar na minha página principal, mas di
 * ...textos bons: [aqui](https://tiagojx.github.io/blog/posts);
 * ...textos "maus": [aqui](https://tiagojx.github.io/blog/posts);
 * ..._desculpa pela piadinha idiota... (￣▽￣*)ゞ_
-	- __...tó!__ Pra você: [abra!](https://tiagojx.github.io/blog/special/gift);
+	- __...tó!__ Pra você: [abra!](./special/gift/index.html);

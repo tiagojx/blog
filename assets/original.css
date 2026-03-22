@@ -4,17 +4,17 @@ body {
   padding: 20px;
   max-width: 720px;
   text-align: left;
-  background-color:  #2a2349;
   word-wrap: break-word;
   overflow-wrap: break-word;
   line-height: 1.5;
   color: #fff9e4;
 
-  /*background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAABuUlEQVR4nO3bXVKDMBQG0OB0xk24Al2Xq+q62hW4CZ/0oUIxBhpqf0jvOTMOBbVF8nETAnbpx9fnx1cKpHt+6e69D2vwdO8d4L66aGd+Lnol+FUB3l7fh2X/Ot8+XtK+Yhew229TSseG7tf7beP1tcpDKrxlxQDkjTw+aGtr/L5azVWslA773Up4b2lyENjKmbLbb4ev8bbxMqVjqFv5u27FINAgkMg2/YtopdFY4EAFCE4AghOA4AQgOAEIbnP6R/7KR9DRriAeyeIKULp8cknVrrO7gHz+nTYt6gLmzvTSPPtUV1Fzo6kUrvwuZe3vMe2sMcASUw0yDkPpTl6+fbxeCtvc95jWxFVAKSTGHZdRXQFqDvhcN/Df7bX75+xfppkuoPZzdAHLnN0F5A9hXFNe8jXy5VRVgFJDl0b0/fqSkX2tcQg0/uUMTwTNHdQlATj1XmvR77cngipMXZO32vgcVQ8CNexjamIegOsRgOAEIDgBCE4AghOA4AQguGEWLNr/CEafAeypAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAETzDRmJwII8NgIZAAAAAElFTkSuQmCC);
-  
+  /*background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAABuUlEQVR4nO3bXVKDMBQG0OB0xk24Al2Xq+q62hW4CZ/0oUIxBhpqf0jvOTMOBbVF8nETAnbpx9fnx1cKpHt+6e69D2vwdO8d4L66aGd+Lnol+FUB3l7fh2X/Ot8+XtK+Yhew229TSseG7tf7beP1tcpDKrxlxQDkjTw+aGtr/L5azVWslA773Up4b2lyENjKmbLbb4ev8bbxMqVjqFv5u27FINAgkMg2/YtopdFY4EAFCE4AghOA4AQgOAEIbnP6R/7KR9DRriAeyeIKULp8cknVrrO7gHz+nTYt6gLmzvTSPPtUV1Fzo6kUrvwuZe3vMe2sMcASUw0yDkPpTl6+fbxeCtvc95jWxFVAKSTGHZdRXQFqDvhcN/Df7bX75+xfppkuoPZzdAHLnN0F5A9hXFNe8jXy5VRVgFJDl0b0/fqSkX2tcQg0/uUMTwTNHdQlATj1XmvR77cngipMXZO32vgcVQ8CNexjamIegOsRgOAEIDgBCE4AghOA4AQguGEWLNr/CEafAeypAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAETzDRmJwII8NgIZAAAAAElFTkSuQmCC);*/
+ 
+  background-color: #2a2349;
   background-repeat: repeat;
-  background-size: 128px, 128px;
-  image-rendering: pixelated;*/
+  background-size: 128px 128px;
+  image-rendering: pixelated;
 }
 
 h1,
@@ -258,7 +258,7 @@ figcaption > p {
 }
 
 .menu-nav {
-  position: fixed;
+  position: absolute;
   top: 80px;
   left: 200px;
   width: 150px;
@@ -334,13 +334,21 @@ figcaption > p {
   float: right;
 }
 
-.console-window span {
+.main-content h1, h2, h3, h4, h5, h6, p, ul {
   margin-left: 13px;
   padding-top: 0;
   display: block;
 }
 
-/* Blog 
-.blog-posts {
-  background: rgba(42, 35, 73, 0.9);
-}*/
+.img-content {
+  min-width: 55%;
+  min-height: 55%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.main-content img {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
